@@ -1,0 +1,114 @@
+#     ______                      __  __       _
+#    |  ____|                    |  \/  |     | |
+#    | |__ _ __ ___ _______ _ __ | \  / | ___ | |__  ___
+#    |  __| '__/ _ \_  / _ \ '_ \| |\/| |/ _ \| '_ \/ __|
+#    | |  | | | (_) / /  __/ | | | |  | | (_) | |_) \__ \
+#    |_|  |_|  \___/___\___|_| |_|_|  |_|\___/|_.__/|___/
+#
+#                       Version 1.0
+
+
+# This is used to make sure the config file is up to date.
+# Only modify when all necessary additions are made!
+configVersion: 1
+
+
+# -----------------------------------
+#              Theme
+# -----------------------------------
+
+# Theme modifies the colors for all text
+# used by the plugin that cannot be modified
+# under Messages.
+
+# Default: "&2"
+color1: "&2"
+
+# Default: "&a"
+color2: "&a"
+
+# Default: "&8"
+color3: "&8"
+
+# Default: "&f"
+color4: "&f"
+
+# -----------------------------------
+#            Settings
+# -----------------------------------
+
+# When true, mobs do damage
+DoDamage: false
+
+# When true, players can do damage to frozen mobs.
+PlayerDoDamage: true
+
+# When true, mobs will be able to be pushed by players,
+# water, and knockback.
+Pushable: true
+
+# Sets whether or not the mob collide
+# with other entities.
+Collideable: true
+
+# -----------------------------------
+#              Animals
+# -----------------------------------
+
+# Toggles which animals are effected.
+Bat: true
+Cat: true
+Chicken: true
+Cod: true
+Cow: true
+Dolphin: true
+Donkey: true
+Fox: true
+Horse: true
+Llama: true
+Mooshroom: true
+Mule: true
+Ocelot: true
+Panda: true
+Parrot: true
+Pig: true
+PolarBear: true
+Pufferfish: true
+Rabbit: true
+Salmon: true
+Sheep: true
+Squid: true
+TropicalFish: true
+Turtle: true
+Villager: true
+Wolf: true
+
+# -----------------------------------
+#              Monsters
+# -----------------------------------
+
+# Toggles which monsters are effected.
+Blaze: true
+Creeper: true
+Drowned: true
+ElderGuardian: true
+Endermite: true
+Evoker: true
+Ghast: true
+Guardian: true
+Husk: true
+MagmaCube: true
+Phantom: true
+Pillager: true
+Ravager: true
+Shulker: true
+Silverfish: true
+Skeleton: true
+Slime: true
+Stray: true
+Vex: true
+Vindicator: true
+Witch: true
+WitherSkeleton: true
+Zombie: true
+ZombieVillager: true
