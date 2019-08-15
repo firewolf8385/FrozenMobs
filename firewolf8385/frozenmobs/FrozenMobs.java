@@ -19,6 +19,9 @@ public class FrozenMobs extends JavaPlugin
     @Override
     public void onEnable()
     {
+        // Enables bStats
+        Metrics metrics = new Metrics(this);
+
         Bukkit.getServer().getPluginManager().registerEvents(new CreatureSpawn(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new EntityExplode(), this);
         Bukkit.getServer().getPluginManager().registerEvents(new EntityTarget(), this);
