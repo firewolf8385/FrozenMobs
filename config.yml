@@ -40,13 +40,9 @@ DoDamage: false
 # When true, players can do damage to frozen mobs.
 PlayerDoDamage: true
 
-# When true, mobs will be able to be pushed by players,
-# water, and knockback.
-Pushable: true
-
-# Sets whether or not the mob collide
+# Sets whether or not the mob collides
 # with other entities.
-Collideable: true
+Collidable: true
 
 # -----------------------------------
 #              Animals
