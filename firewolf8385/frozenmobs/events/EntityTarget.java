@@ -1,5 +1,7 @@
 package firewolf8385.frozenmobs.events;
 
+import firewolf8385.frozenmobs.SettingsManager;
+import firewolf8385.frozenmobs.Util;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -8,15 +10,23 @@ import org.bukkit.event.entity.EntityTargetEvent;
 
 public class EntityTarget implements Listener
 {
+    SettingsManager settings = SettingsManager.getInstance();
+
 
     @EventHandler
     public void onTarget(EntityTargetEvent e)
     {
-        if(e.getTarget() instanceof Player)
+        if(settings.getConfig().getBoolean(Util.getEntityType(e.getEntity())))
         {
-            if(e.getEntity() instanceof Monster)
+            if(e.getTarget() instanceof Player)
             {
-                e.setCancelled(true);
+                if(e.getEntity() instanceof Monster)
+                {
+                    if(!settings.getConfig().getBoolean("DoDamage"))
+                    {
+                        e.setCancelled(true);
+                    }
+                }
             }
         }
     }
