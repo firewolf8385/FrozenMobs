@@ -24,8 +24,12 @@ public class CreatureSpawn implements Listener
                 e.setCancelled(true);
 
                 PotionEffect effect = new PotionEffect(PotionEffectType.SLOW, 99999, 99999);
-
                 e.getEntity().addPotionEffect(effect);
+
+                if(!settings.getConfig().getBoolean("Collidable"))
+                {
+                   e.getEntity().setCollidable(false);
+                }
             }
         }
     }
