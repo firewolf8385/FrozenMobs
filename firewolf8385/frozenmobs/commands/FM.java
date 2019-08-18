@@ -24,7 +24,7 @@ public class FM implements CommandExecutor
                 case "info":
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m--------------------" + dark_green + "&lFrozenMobs" + dark_gray + "&m--------------------" + dark_green + "&l["));
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Author: " + light_green + "firewolf8385"));
-                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0"));
+                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0.1"));
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Spigot: " + light_green + "https://www.spigotmc.org/resources/frozenmobs.70444/"));
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m---------------------------------------------------" + dark_green + "&l["));
                     break;
@@ -37,7 +37,7 @@ public class FM implements CommandExecutor
 
                 case "version":
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m--------------------" + dark_green + "&lFrozenMobs" + dark_gray + "&m--------------------" + dark_green + "&l["));
-                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0"));
+                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0.1"));
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m---------------------------------------------------" + dark_green + "&l["));
                     break;
 
@@ -55,7 +55,7 @@ public class FM implements CommandExecutor
         {
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m--------------------" + dark_green + "&lFrozenMobs" + dark_gray + "&m--------------------" + dark_green + "&l["));
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Author: " + light_green + "firewolf8385"));
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0"));
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Version: " + light_green + "1.0.1"));
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_gray + "  » " + dark_green + "Spigot: " + light_green + "Coming soon."));
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', dark_green + "&l]" + dark_gray + "&m---------------------------------------------------" + dark_green + "&l["));
         }
